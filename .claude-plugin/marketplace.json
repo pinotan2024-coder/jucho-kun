@@ -12,7 +12,10 @@
   "plugins": [
     {
       "name": "jucho-kun",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "pinotan2024-coder/jucho-kun"
+      },
       "description": "Automates first-pass investigation for Japanese real-estate disclosure documents (35-Article disclosure under the Building Lots and Buildings Transaction Business Act). Generates checklists, crawls municipal sites, extracts PDF highlights, and outputs xlsx reports.",
       "version": "1.0.0",
       "author": {
